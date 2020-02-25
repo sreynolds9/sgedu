@@ -1,0 +1,32 @@
+Version 1.1.0
+Improved accesibility with keyboard navigation
+
+Version 1.0.9
+Minor Backend Tweaks
+Added Compatibility with Kali Forms plugin
+
+Version 1.0.8
+Minor Fixes
+
+Version 1.0.7
+Added ShortPixel as a recommended plugin.
+Fixed Modula recommendation bug.
+
+Version 1.0.6
+Improved Welcome Screen
+Fixed Bug #2 ( https://github.com/MachoThemes/affluent-lite/issues/2 )
+Fixed Bug #4 ( https://github.com/MachoThemes/affluent-lite/issues/4 )
+
+Version 1.0.5
+Fixed Homepage Portfolio Item Bug
+
+Version 1.0.4
+Fixed Single Post bug.
+
+Version 1.0.2
+Added Epsilon Framework
+Added Compatibility with Woocommerce 3.x
+Added Compatibility with Polylang
+
+Version 1.0.0
+Theme release!
