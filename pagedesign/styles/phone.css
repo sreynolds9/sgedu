@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+.wrapper {
+	text-align: center;
+	align-content: center;
+}
+header h1 {
+	text-align: center;
+	font-size: 4.4em;
+	padding-top: 5px;
+}
+.logo p {
+	text-align: center;
+	padding-top: 5px;
+	font-size: 1.4rem;
+}
+.logo p:hover {
+	cursor: pointer;
+}
+.logo input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: .7;
+	border: 2px solid #5e4ef0;
+	padding: 8px 10px 8px 80px;
+	text-align: right;
+}
+/******************************Nav*****************************/
+nav {
+	font-size: 1.2em;
+	text-align: center;
+}
+nav:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+ul li {
+	border: .5px solid #000;
+}
+nav li a {
+	display: block;
+	text-decoration: none;
+	font-weight: 700;
+	width: 100%;
+	padding: 12px 8%;
+}
+/********************************Main***************************/
+.space {
+	height: 200px;
+}
+.info {
+	padding: 25px 5%;
+}
+.info h1 {
+	font-size: 3em;
+}
+.info h2 {
+	font-size: 2.5em;
+}
+.info p {
+	padding-top: 25px;
+}
+.info2 {
+	padding: 25px 5%;
+}
+.info2 h2 {
+	font-size: 2.5em;
+}
+.info2 p {
+	padding-top: 25px;
+}
+/****************************Images*****************************/
+.homeimage img {
+	padding-top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+.homeimage2 img {
+	padding-top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+/*****************************Footer*****************************/
+footer p {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.footernav nav li a {
+	color: #000;
+}
+.social {
+	padding-top: 50px;
+	width: 30%;
+	padding-left: 44%;
+}
+.social a img {
+	width: 50px;
+	height: 60px;
+	padding: 0 8% 15px 0;
+}
+.newsletter {
+	padding-top: 40px;
+}

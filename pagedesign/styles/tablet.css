@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+.wrapper {
+	text-align: center;
+	align-content: center;
+}
+header h1 {
+	text-align: center;
+	font-size: 5.2em;
+	padding-top: 5px;
+}
+.logo p {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 1.4rem;
+}
+.logo input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: .7;
+	border: 2px solid #5e4ef0;
+	padding: 8px 10px 8px 80px;
+	text-align: right;
+	margin-bottom: 10px;
+}
+/******************************Nav*****************************/
+nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+nav li {
+	float: left;
+}
+nav li a {
+	font-size: 1.2em;
+	font-size: 2.3vw;
+	padding: 14px 16px;
+}
+/********************************Main***************************/
+.space {
+	height: 200px;
+}
+.info {
+	padding: 25px 10%;
+}
+.info h1 {
+	font-size: 3em;
+}
+.info h2 {
+	font-size: 2.5em;
+}
+.info p {
+	padding-top: 25px;
+}
+.info2 {
+	padding: 25px 10%;
+}
+.info2 h2 {
+	font-size: 2.5em;
+}
+.info2 p {
+	padding-top: 25px;
+}
+/****************************Species*****************************/
+.specieslist ul {
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+}
+/****************************Images*****************************/
+.homeimage img {
+	padding-top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.homeimage2 img {
+	padding-top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+/*****************************Footer*****************************/
+footer p {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.footernav nav li a {
+	color: #000;
+	font-size: 2vw;
+}
+.social {
+	padding-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.social a {
+	padding: 0 15px;
+}
+.social a img {
+	width: 50px;
+	height: 60px;
+	padding: 0 8% 15px 0;
+}
+.newsletter {
+	padding-top: 40px;
+}

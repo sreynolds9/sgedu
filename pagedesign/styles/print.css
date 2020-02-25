@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-size: 12pt;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #000000;
+	text-align: center;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+.logo h1 {
+	font-size: 36pt;
+	color: #000;
+}
+nav {
+	display: none;
+}
+.logo input {
+	display: none;
+}
+h1 {
+	font-size: 24pt;
+	color: #000;
+}
+h2 {
+	font-size: 18pt;
+	color: #000;
+}
+.wrapper {
+	width: 1003px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+.wrapper img {
+	display: none;
+}
+button {
+	display: none;
+}
+input {
+	display: none;
+}
+.printnone {
+	display: none;
+}
+.social {
+	display: none;
+}
+.newsletter {
+	display: none;
+}
+footer {
+	padding-top: 30px;
+	text-align: center;
+}

@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+	height: 170px;
+}
+.logo h1 {
+	font-size: 5.5em;
+	margin-left: 10%;
+	float: left;
+}
+.logo form {
+	float: right;
+	margin-right: 10%;
+}
+.logo p {
+	padding-right: 3%;
+	padding-top: 30px;
+	float: right;
+	font-size: 1.2rem;
+}
+.logo input {
+	opacity: .7;
+	border: 2px solid #5e4ef0;
+	padding: 5px 10px 5px 20px;
+	text-align: right;
+	margin-top: 10px;
+}
+/******************************Nav*****************************/
+nav {
+	padding-top: 120px;
+	padding-bottom: 20px;
+}
+nav ul {
+	top: 0;
+	padding-left: 10%;
+}
+nav li {
+	float: left;
+}
+nav li a {
+	font-size: 1.2em;
+	padding: 14px 16px;
+}
+/********************************Main***************************/
+.info {
+	height: 700px;
+	padding-left: 10%;
+}
+.floatleft {
+	float: left;
+	width: 45%;
+}
+.info h1 {
+	font-size: 3.3em;
+	padding-top: 50px;
+}
+.info h2 {
+	font-size: 2.5em;
+	padding-top: 40px;
+}
+.info p {
+	padding-top: 50px;
+}
+.info2 {
+	height: 700px;
+	padding-right: 10%;
+}
+.floatright {
+	float: right;
+	width: 45%;
+}
+.info2 h2 {
+	font-size: 2.5em;
+	padding-top: 40px;
+}
+.info2 p {
+	padding-top: 50px;
+}
+.textpadding {
+	padding-left: 2%
+}
+.space {
+	clear: both;
+	height: 300px;
+}
+/****************************Species*****************************/
+.specieslist ul {
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+}
+/****************************Images*****************************/
+.homeimage {
+	float: right;
+	width: 55%;
+	padding-top: 100px;
+}
+.homeimage img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: -1;
+}
+.homeimage2 {
+	float: left;
+	width: 25%;
+	padding-top: 100px;
+}
+.homeimage2 img {
+	padding-left: 35%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: -1;
+}
+/*****************************Footer*****************************/
+footer {
+	padding-top: 40px;
+}
+footer p {
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.footernav {
+	color: #fff;
+	width: 75%;
+	float: left;
+}
+.footernav nav {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.footernav nav ul {
+	background-color: #000;
+	padding-left: 15%;
+}
+.footernav nav li {
+	float: left;
+}
+.footernav nav li a {
+	padding: 14px 16px;
+}
+.footernav nav li a:hover {
+	background-color: #5e4ef0;
+}
+.social {
+	margin-right: 10%;
+	width: 11%;
+	float: right;
+	text-align: right;
+	padding-top: 25px;
+}
+.social a img {
+	width: 50px;
+	height: 50px;
+	padding: 0 8% 15px 0;
+}
+.newsletter {
+	padding-top: 80px;
+}
+.newsletter .button a:hover {
+	background-color: #9f9df0;
+}
