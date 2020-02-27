@@ -237,8 +237,6 @@ Vue.component('navigation', {
 
 });
 
-
-
 Vue.component('points', {
     data(){
         return {

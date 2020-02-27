@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Barkin' Up Hickory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BootstrapVue -->
+    <!--<link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />-->
+    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css"/>
+
+
+
+    <!-- fonts / icons -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Signika+Negative:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+
+</head>
+<body>
+
+<div id="app" >
+
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <router-link to="/home">
+                <b-img src="images/Logo.png" fluid class="logo" alt="Barking up Hickory Logo"></b-img>
+            </router-link>
+        </div>
+
+        <navigation :auth-user="authUser"></navigation>
+
+    </nav>
+    <!-- Page Content -->
+    <div id="content">
+        <b-navbar  toggleable="md" type="light" variant="primary" class="justify-content-between">
+            <div>
+                <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+
+
+
+                <b-navbar-brand class="d-md-none text-white">
+                    Barking Up Hickory
+                </b-navbar-brand>
+            </div>
+<div class="customHide">
+            <div v-if="authUser">
+                <b-img :src="authUser.photoURL" class="avatar"></b-img>
+            </div>
+</div>
+            <div class="d-md-none col-12" >
+                <b-collapse is-nav id="nav_collapse">
+                    <navigation :auth-user="authUser"></navigation>
+                </b-collapse>
+            </div>
+
+        </b-navbar>
+
+        <div class="text-center">
+            <b-img src="images/Logo.png" responsive class="logo" alt="Barkin Up Hickory"></b-img>
+
+        </div>
+
+
+        <!-- route outlet -->
+        <!-- component matched by the route will render here -->
+        <router-view :auth-user="authUser"></router-view>
+
+
+
+
+    </div>
+
+</div>
+<div id="footer">
+
+    <div class="text-white pt-5">&copy; 2019 — <strong>Barkin' Up Hickory</strong></div>
+</div>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase.js"></script>
+
+<!-- Vue Libraries/Plugins -->
+<script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+<script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+<!--<script src="https://unpkg.com/vuefire/dist/vuefire.js"></script>--> <!-- for use with realtime database -->
+<script src="https://unpkg.com/vuefire@2.0.0-alpha.20/dist/vuefire.js"></script><!-- for use with firestore -->
+
+<!-- Vue Application -->
+<script src="js/app-models.js"></script>
+<script src="js/app-components.js"></script>
+<script src="js/app-pages.js"></script>
+<script src="js/app.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
